@@ -8,3 +8,18 @@ ren dir newName
 
 ### 3.查看已签名的apk的签名信息
 #### 例子：keytool -list -printcert -v -jarfile F:\打包\ceshi.apk
+
+### 4.删除手机上文件
+#### 例子 删除手机data/data/com.baidu
+<pre>
+<code>
+adb shell             //切换到shell命令
+su                    //切换到用户
+cd data               //切换到data目录
+chmod 777 data        //修改此data目录下面的data文件权限为rwb
+cd data
+chmod 777 com.baidu
+rm -rR com.baidu      //删除文件夹
+rm -f a.txt           //删除文件
+</code>
+<pre>
