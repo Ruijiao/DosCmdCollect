@@ -22,7 +22,7 @@ chmod 777 com.baidu
 rm -rR com.baidu      //删除文件夹
 rm -f a.txt           //删除文件
 </code>
-<pre>
+</pre>
 ### 5.查看手机某个应用占用内存情况
 ##### adb shell dumpsys meminfo packagename -d
 
