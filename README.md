@@ -24,8 +24,5 @@ rm -f a.txt           //删除文件
 </code>
 <pre>
 ### 5.查看手机某个应用占用内存情况
-<pre>
-<code>
-adb shell dumpsys meminfo packagename -d
-</code>
-<pre>
+##### adb shell dumpsys meminfo packagename -d
+
